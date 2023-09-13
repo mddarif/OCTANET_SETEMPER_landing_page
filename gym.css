@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.gym-1 {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13%;
+}
+.container1 {
+  border: 2px solid;
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gold;
+}
+.gym-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gym-3 {
+  width: 219px;
+  display: flex;
+  justify-content: end;
+}
+.gold {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  list-style: none;
+  padding: 60px;
+  gap: 50px;
+}
+.container2 li a {
+  color: whitesmoke;
+  text-decoration: none;
+  display: flex;
+}
+.button button {
+  background-color: gold;
+  width: 70px;
+  height: 40px;
+}
+.button #gym {
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  outline-style: solid;
+  outline-color: gold;
+  outline-width: 1px;
+  transition: all;
+}
+
+
+.container2 li .dropdown {
+  display: none;
+}
+
+.container2 li {
+  position: relative;
+}
+
+.container2 li:hover > .dropdown {
+  display: block;
+  position: absolute;
+  top: 3em;
+  width: 10em;
+  height: 12em;
+  background-color: black;
+  list-style: none;
+}
+
+.container2 li:hover > .dropdown li {
+  list-style: none;
+}
+
+.container2 li:hover > .dropdown li a {
+  color: rgb(255, 255, 255);
+}
+.container2 li .dropdown-1{
+    display: none;
+}
+.container2 li{
+    position: relative;
+}
+.container2 li:hover > .dropdown-1{
+    display: block;
+    position: absolute;
+    top: 3em;
+    width: 10em;
+    height: 8em;
+    background-color: black;
+    list-style: none;
+}
+.container2 li .dropdown-2{
+    display: none;
+}
+
+.container2 li{
+    position: relative;
+}
+.container2 li:hover .dropdown-2{
+    display: block;
+    position: absolute;
+    top: 3em;
+    width: 10em;
+    height: 10em;
+    background-color: black;
+    list-style: none;
+}
+.gym-10 img{
+    width: 100%;
+
+}
+.container2 li .dropdown-3{
+  display: none;
+}
+.container2 li:hover >.dropdown-3{
+  display: block;
+  position: absolute;
+  top: 3em;
+  width: 10em;
+  height: 5em;
+  background-color: black;
+  list-style: none;
+
+    
+}
+.dubai{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  font-weight: bold;
+}
+.dubai-2{
+  color: gold;
+}
+.dubai-3 img{
+ width: 130px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.dubai-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+ gap: 63px
+}
+.dubai-3 h4{
+  position: relative;
+  /* left: 43px; */
+  text-align: center;
+  top: 15px;
+
+}
+.dubai-1 h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.soudi-1 img{
+  width: 100%;
+  height: 50%;
+}
+.soudi{
+  width: 100%;
+  height: 18em;
+  border: 2px solid black;
+  background-image: url(https://goldsgym.in/assets/frontend/css/workbaner.jpg);
+  background-color: rgba(4, 37, 60, 0.76);
+ 
+}
+
+.soudi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gold;
+}
+.soudi-2 #gym{
+  background-color: transparent;
+  /* background-color: gold; */
+  outline-style: solid;
+  outline-color: gold;
+  outline-width: 2px;
+  color: gold;
+  width: 150px;
+  height: 30px;
+  left: 57px;
+  bottom: 25px;
+  position: relative;
+  border-style: none;
+  transition: all 0.4s;
+}
+
+.soudi{
+  display: flex;
+  gap: 30px;
+  
+
+}
+.soudi-2: #gym hover{
+  transform: scale(1.115);
+
+}
+.soudi-3{
+  border: 1px solid black;
+  width: 100%;
+  height: 500%;
+  gap: 352px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  /* height: 30px; */
+}
+.soudi-3 img{
+  /* border: 2px solid black; */
+  width: 100px;
+  height: 200%;
+}
+.soudi-5 img{
+  height: 100%;
+  width: 256px;
+  
+}
+.soudi-7{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 46px;
+  height:18em;
+  width: 100%;
+  border: 1px solid black;
+  background-image: url(https://th.bing.com/th/id/OIP.-cB9sou7Vgka7GMpTOMgTgHaEK?pid=ImgDet&w=900&h=506&rs=1)
+}
+.soudi-8 h1{
+  padding-right: 10em;
+
+}
+
+.soudi-8{
+  padding: 66px;
+ font-weight: bold;
+ color: gold;
+}
+
+.soudi-9 {
+  width: 97em;position: relative;
+  left: 30px;
+  color: gold;
+
+}
+
+
+.soudi-10 button{
+  background: transparent;
+  height: 5vh;
+  width: 25vh;
+  border: 2px solid gold;
+  color: gold;
+  position: relative;
+  left: -128px;
+  bottom: 11px;
+}
